@@ -1,10 +1,10 @@
 /* Alumno:   Gino Angelo Liza Rodriguez
- * File:     mpi_odd_even.c
- * Purpose:  Implementacion paralela del odd-even sort sobre un array
+ * Archivo:  mpi_odd_even.c
+ * Objetivo: Implementacion paralela del odd-even sort sobre un array
  *           de enteros no negativos
- * Input:
+ * Entrada:
  *    A:     elementos del array (opcional)
- * Output:
+ * Salida:
  *    A:     elementos de A ordenados
  *
  * Compilar:  mpicc -g -Wall -o mpi_odd_even mpi_odd_even.c
@@ -15,7 +15,7 @@
  *       - i: el usuario ingresara la lista en el proceso 0
  *       - global_n: numero de elementos de la lista global 
  *
- * Notes:
+ * Notas:
  * 1.  global_n debe ser divisible por p
  * 2.  Excepto por la salida del DEBUG, el proceso 0 hace todo el I/O
  * 3.  Opcional -DDEBUG flag de compilacion para salida explicita
