@@ -1,4 +1,4 @@
-/*
+/* Alumno:   Gino Angelo Liza Rodriguez
  * File:     mpi_odd_even.c
  * Purpose:  Implementacion paralela del odd-even sort sobre un array
  *           de enteros no negativos
